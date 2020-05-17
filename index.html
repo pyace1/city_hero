@@ -8,20 +8,24 @@
 		    <meta name="author" content="Aleksandar Tomović">
 		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<script src="main.js"></script>
+			<link rel="stylesheet" href="styles.css">
 		</head>
 		<body>
-			<h2>Heroj grada</h2>
-			<!--bodovanje-->
-			<h4>Budi i ti heroj svog grada !</h4>
-			<p>U današnje vreme sve je manje ljudi koji čine dobra dela i pomažu drugima !
-			Možda vas ova stranica podstakne da i vi učinite neko dobro delo ili nesto sto ce
-			 pozitivno uticati na društvo ili okolinu ? Sajt je po principu challenge-a ...
-			 Uradi svoje delo , dokumentuj ga, a drugi neka ocejuju ... možda uvedemo i neke 
-			 nagrade u našem malom takmičenju. Svaki grad se boduje nezavisno, tako da vam 
-			 je jedini limit vaše okruženje !</p><br>
+			<div id="header">
+				<p style="text-align:right">Datum/Vreme: <span id="datetime"></span></p>	
+			</div>
+				<h2>Heroj grada</h2>
+				<!--bodovanje-->
+				<h4 style="text-indent:15px">Budi i ti heroj svog grada !</h4><hr>
+				<p>U današnje vreme sve je manje ljudi koji čine dobra dela i pomažu drugima !
+				Možda vas ova stranica podstakne da i vi učinite neko dobro delo ili nesto sto ce
+				 pozitivno uticati na društvo ili okolinu ? Sajt je po principu challenge-a ...
+				 Uradi svoje delo , dokumentuj ga, a drugi neka ocejuju ... možda uvedemo i neke 
+				 nagrade u našem malom takmičenju. Svaki grad se boduje nezavisno, tako da vam 
+				 je jedini limit vaše okruženje !</p><hr><br>
 			 <div id="main_wraper">
 				<div id="forma" style="float:left" width="50%" >
-					<p style="text-align:center">Novi unos :</p>
+					<p style="text-align:center"><strong>Novi unos :</strong></p>
 					<form>
 					  <label for="name">Ime:</label>
 					  <input type="text" id="name" name="name"><br><br>
@@ -33,7 +37,7 @@
 					</form>
 				</div>
 				<div id="listing" style="float:right" width="50%">
-					<p>Lista najboljih :</p>
+					<p style="text-align:center"><strong>Lista najboljih :</strong></p>
 					<p>Lorem ipsum fdhfdh hdjhgfh jfjgfjfjgf gjfjgfjf jgfjfjgf jfjgfjgfjg<br>
 					gfjgfjg khghgk jgjhgkj ghjgkjgk hjghghg kjghghkg kgghffdg jgfhgffj<br>
 					gfjjhjglk hgkghjk gjgfg hjgkhkl hghglk hkgkggk hggkgkgk hghgkg </p>

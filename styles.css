@@ -1,0 +1,20 @@
+body {
+	background-color:yellow;
+}
+h2{
+	text-align:center;
+	text-decoration:underline;
+}
+#header{
+	height:40px;
+	background-color:purple;
+	padding:auto 0;
+}
+#forma{
+	background-color:purple;
+	padding:10px;
+}
+#listing{
+	background-color:purple;
+	padding:10px;
+}

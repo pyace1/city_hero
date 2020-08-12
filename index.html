@@ -7,26 +7,26 @@
 		    <meta name="keywords" content="HTML, JavaScript">
 		    <meta name="author" content="Aleksandar Tomović">
 		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<script src="main.js"></script>
+			
 			<link rel="stylesheet" href="styles.css">
 		</head>
 		<body>
 			<div id="header">
-				<p style="text-align:right">Datum/Vreme: <span id="datetime"></span></p>	
+				<p id="datetime" style="text-align:right"></p>	
 			</div>
 				<h2>Heroj grada</h2>
 				<!--bodovanje-->
 				<h4 style="text-indent:15px">Budi i ti heroj svog grada !</h4><hr>
 				<p>U današnje vreme sve je manje ljudi koji čine dobra dela i pomažu drugima !
-				Možda vas ova stranica podstakne da i vi učinite neko dobro delo ili nesto sto ce
+				Možda vas baš ova stranica podstakne da i vi učinite neko dobro delo ili nesto sto će
 				 pozitivno uticati na društvo ili okolinu ? Sajt je po principu challenge-a ...
-				 Uradi svoje delo , dokumentuj ga, a drugi neka ocejuju ... možda uvedemo i neke 
+				 Uradi svoje delo , dokumentuj ga, a drugi neka ocenjuju ... možda uvedemo i neke 
 				 nagrade u našem malom takmičenju. Svaki grad se boduje nezavisno, tako da vam 
 				 je jedini limit vaše okruženje !</p><hr><br>
 			 <div id="main_wraper">
 				<div id="forma" style="float:left" width="50%" >
 					<p style="text-align:center"><strong>Novi unos :</strong></p>
-					<form>
+					<form action="#.html">
 					  <label for="name">Ime:</label>
 					  <input type="text" id="name" name="name"><br><br>
 					  <label for="city">Grad:</label>
@@ -34,14 +34,46 @@
 					  <label for="delo">Učinjeno delo:</label>
 					  <input type="text" id="delo" name="delo"><br><br>
 					  <br><input type="button" onclick="unos()" value="Submit">
-					</form>
+					</form><br>
 				</div>
 				<div id="listing" style="float:right" width="50%">
 					<p style="text-align:center"><strong>Lista najboljih :</strong></p>
+					<div id="upis"></div>
 					<p>Lorem ipsum fdhfdh hdjhgfh jfjgfjfjgf gjfjgfjf jgfjfjgf jfjgfjgfjg<br>
 					gfjgfjg khghgk jgjhgkj ghjgkjgk hjghghg kjghghkg kgghffdg jgfhgffj<br>
-					gfjjhjglk hgkghjk gjgfg hjgkhkl hghglk hkgkggk hggkgkgk hghgkg </p>
+					gfjjhjglk hgkghjk gjgfg hjgkhkl hghglk hkgkggk hggkgkgk hghgkg </p><br>
 				</div>
 			 </div>
+			 <div id="lower">
+				<h3>Dobrodošli na Vaš omiljeni sajt</h3>
+				<p>Izaberite Vašeg omiljenog junaka</p>
+				<form>
+					<form action="/#.php" method="#">
+					  <input type="radio" id="Wolverine" name="junak" value="Wolverine">
+					  <label for="Wolverine">Wolverine</label><br>
+					  
+					  <input type="radio" id="Spider-Man" name="junak" value="Spider-Man">
+					  <label for="Spider-Man">Spider-Man</label><br>
+					  
+					  <input type="radio" id="Supermen" name="junak" value="Supermen">
+					  <label for="Supermen">Supermen</label><br>
+					  
+					  <input type="radio" id="Thor" name="junak" value="Thor">
+					  <label for="Thor">Thor</label><br>
+					  
+					  <input type="radio" id="Betman" name="junak" value="Betman">
+					  <label for="Betman">Betman</label><br>
+					  
+					  <input type="radio" id="Ironman" name="junak" value="Ironman">
+					  <label for="Ironman">Ironman</label><br>
+					  
+					  <input type="radio" id="Thor" name="junak" value="Thor">
+					  <label for="Thor">Thor</label><br>
+				</form>
+			 </div>
+			 <div id="footer">
+				<p>&copy; . All Rights Reserved | Design by <a href="https://github.com/pyace1" target="_blank">Aleksandar Tomović</a></p>
+			 </div>
 		</body>
+		<script src="main.js"></script>
 	</html>

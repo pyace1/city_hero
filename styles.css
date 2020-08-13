@@ -4,9 +4,14 @@ body {
 	font-family: 'Caveat', cursive;
 	font-family: 'Open Sans', sans-serif;
 }
-h2{
+h1{
+	font-family: 'Caveat', cursive;
+	font-weight:700;
 	text-align:center;
 	text-decoration:none;
+}
+h3{
+	font-family: 'Caveat', cursive;
 }
 #header{
 	height:50px;
@@ -25,4 +30,14 @@ h2{
 	background-image: url("avengers-endgame-3053x1717-silhouette-marvel-superheroes-illustration-18339.jpg");
 	height:55px;
 	
+}
+.slike{
+	display:flex;
+	width:100vw;
+	background-color:purple;
+}
+#slika1 , #slika2, #slika3{
+	flex:1;
+	text-align:center;
+	border:2px solid white;
 }
